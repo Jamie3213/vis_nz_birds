@@ -1,8 +1,14 @@
-Tidy Tuesday - NZ Bird of the Year
-================
-Jamie Hargreaves
+---
+title: "Tidy Tuesday - NZ Bird of the Year"
+author: "Jamie Hargreaves"
+output: rmarkdown::github_document
+---
 
-``` r
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r fig.align = 'center', fig.retina = 2, warning = FALSE, message = FALSE}
 library(tidyverse)
 library(magrittr)
 library(hrbrthemes)
@@ -72,5 +78,3 @@ main_breeds %>%
   # set the theme
   theme_ipsum()
 ```
-
-<img src="README_files/figure-gfm/unnamed-chunk-1-1.png" width="672" style="display: block; margin: auto;" />
