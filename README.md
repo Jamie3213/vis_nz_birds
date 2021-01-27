@@ -1,4 +1,4 @@
-Tidy Tuesday - NZ Bird of the Year
+New Zealand Bird of the Year
 ================
 Jamie Hargreaves
 
